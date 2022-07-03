@@ -1,0 +1,17 @@
+{
+  "name": "proxy-server-with-nodeJS",
+  "version": "1.0.0",
+  "description": "tutorial teaching how to build a Node.JS Proxy Server",
+  "main": "index.js",
+  "author": "Andrew Ott",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "express": "^4.18.1",
+    "http-proxy-middleware": "^2.0.6",
+    "morgan": "^1.10.0"
+  },
+  "scripts": {
+    "start": "node index.js"
+  }
+}
